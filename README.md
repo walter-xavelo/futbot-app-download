@@ -7,7 +7,7 @@ It hosts no binaries.
 
 After each EAS build:
 
-1. Edit `index.html`: set the new version in the `.version` paragraph.
+1. Edit `index.html`: set the new version in the `.version` paragraph (`<span id="v">`).
 2. Replace the button `href` with the new EAS build URL.
 3. Commit and push to `main`; Pages redeploys.
 
