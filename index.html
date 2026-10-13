@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Futbot for Android</title>
+  <style>
+    :root { --bg: #ffffff; --fg: #111827; --muted: #4b5563; --accent: #15803d; --card: #f3f4f6; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0b1210; --fg: #f3f4f6; --muted: #9ca3af; --accent: #22c55e; --card: #16201c; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, sans-serif; }
+    main { max-width: 36rem; margin: 0 auto; padding: 2.5rem 1rem; }
+    h1 { margin: 0 0 .25rem; }
+    .version { color: var(--muted); margin: 0 0 1.5rem; }
+    .button { display: block; text-align: center; background: var(--accent); color: #fff;
+      padding: .9rem 1rem; border-radius: .6rem; font-weight: 600; text-decoration: none; }
+    .card { background: var(--card); border-radius: .6rem; padding: 1rem 1.25rem; margin-top: 1.5rem; }
+    ol { padding-left: 1.2rem; margin: .5rem 0 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Futbot for Android</h1>
+    <!-- UPDATE per release: version text and the EAS build URL below -->
+    <p class="version">Version 0.18.4</p>
+
+    <a class="button" href="https://expo.dev/accounts/xavelo_ai/projects/futbot-app/builds/576d1bda-6008-43ae-b38b-f66be45ebbf8">
+      Download the latest build
+    </a>
+
+    <div class="card">
+      <strong>How to install</strong>
+      <ol>
+        <li>Open this page on your Android phone and tap the button above.</li>
+        <li>On the Expo page, tap <em>Install</em> and download the APK.</li>
+        <li>If Android asks, allow installing apps from this source.</li>
+        <li>Open the downloaded file and tap <em>Install</em>. Play Protect may show a warning, since the app is not from the Play Store.</li>
+      </ol>
+    </div>
+  </main>
+</body>
+</html>
